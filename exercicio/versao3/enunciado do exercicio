@@ -1,0 +1,6 @@
+Refatore a classe CalculadoraDeSalario segundo o principio OCP.
+Conforme o princípio, sempre que precisar modificar o comportamento da classe, não podemos alterar o código da classe. 
+Ou seja, a classe deve estar fechada para alterações no seu código, mas aberta para modificações no seu comportamento.
+Como conseguir isso?
+O que pode mudar, tente encapsular em outra classe
+Faça generalizações e use interface
